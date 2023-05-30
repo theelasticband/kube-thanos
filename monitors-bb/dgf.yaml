@@ -2,7 +2,7 @@ kind: Probe
 apiVersion: monitoring.coreos.com/v1
 metadata:
   name: dgf-website
-  namespace: monitoring
+  namespace: prometheus
 spec:
   interval: 60s
   module: http_2xx
