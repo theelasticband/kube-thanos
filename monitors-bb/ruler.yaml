@@ -4,7 +4,7 @@ metadata:
   name: thanos-ruler-dgf
   labels:
     example: thanos-ruler
-  namespace: monitoring
+  namespace: thanos
 spec:
   image: quay.io/thanos/thanos:v0.28.1
   ruleSelector:
