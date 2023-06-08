@@ -23,7 +23,7 @@ spec:
   interval: 60s
   module: if_mib
   prober:
-    url: snmp-exporter-prometheus-snmp-exporter.prometheus.svc.cluster.local:9116/snmp
+    url: snmp-exporter-prometheus-snmp-exporter.prometheus.svc.cluster.local:9116
   targets:
     staticConfig:
       static:
