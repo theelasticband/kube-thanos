@@ -8,6 +8,7 @@ spec:
   - port: 11162
     protocol: UDP
     targetPort: 11162
+    nodePort: 11162
   selector:
     app.kubernetes.io/name: telegraf
   type: NodePort
