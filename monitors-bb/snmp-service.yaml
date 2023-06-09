@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: telegraf-snmp
+  namespace: prometheus
+spec:
+  ports:
+  - port: 11162
+    protocol: UDP
+    targetPort: 11162
+  selector:
+    app.kubernetes.io/name: telegraf
+  type: NodePort
