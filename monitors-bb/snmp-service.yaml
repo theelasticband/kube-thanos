@@ -8,7 +8,7 @@ spec:
   - port: 11162
     protocol: UDP
     targetPort: 11162
-    nodePort: 11162
+    nodePort: 30001
   selector:
     app.kubernetes.io/name: telegraf
   type: NodePort
@@ -23,7 +23,7 @@ spec:
   - port: 9090
     protocol: TCP
     targetPort: 9090
-    nodePort: 9090
+    nodePort: 30002
   selector:
     app.kubernetes.io/name=prometheus
   type: NodePort
