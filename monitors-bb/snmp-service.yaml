@@ -12,3 +12,18 @@ spec:
   selector:
     app.kubernetes.io/name: telegraf
   type: NodePort
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: prometheus-pub
+  namespace: prometheus
+spec:
+  ports:
+  - port: 9090
+    protocol: TCP
+    targetPort: 9090
+    nodePort: 9090
+  selector:
+    app.kubernetes.io/name=prometheus
+  type: NodePort
