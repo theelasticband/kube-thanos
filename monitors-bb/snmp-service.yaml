@@ -20,9 +20,9 @@ metadata:
   namespace: prometheus
 spec:
   ports:
-  - port: 9090
+  - port: 10911
     protocol: TCP
-    targetPort: 9090
+    targetPort: 10911
     nodePort: 30002
   selector:
     app.kubernetes.io/name: prometheus
