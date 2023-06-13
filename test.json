@@ -1,14 +1,14 @@
 [
  {
   "key": "https://www.deutsche-glasfaser.de",
-  "latitude": 51.525304,
-  "longitude": -0.133806,
-  "name": "London"
+  "latitude": 51.233334,
+  "longitude": 6.783333,
+  "name": "Dusseldorf"
  },
  {
   "key": "http://www.deutsche-glasfaser.de",
-  "latitude": 30.285623,
-  "longitude": -97.736181,
-  "name": "Austin"
+  "latitude": 50.110924,
+  "longitude": 8.682127,
+  "name": "Frankfurt"
  }
 ]
